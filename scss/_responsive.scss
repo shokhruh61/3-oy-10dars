@@ -1,0 +1,22 @@
+@media screen and (max-width:992px) {
+  .header__container {
+       padding: 30px;
+  }
+
+ .head__nav a {
+   font-size: 10px;
+   line-height: 13px;
+ }
+
+     .head__btn .btn {
+       padding: 10px 20px;
+       border-radius: 10px;
+       font-size: 12px;
+       line-height: 22px;
+     }
+
+     // hero
+     .hero__container {
+       padding: 0 15px;
+     }
+   }
