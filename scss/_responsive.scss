@@ -1,22 +1,83 @@
-@media screen and (max-width:992px) {
-  .header__container {
-       padding: 30px;
+// Large screens (e.g., desktops)
+@media (max-width: 1140px) {
+  .header__container{
+    width: 1140px;
   }
 
- .head__nav a {
-   font-size: 10px;
-   line-height: 13px;
- }
+  .hero__container {
+    
 
-     .head__btn .btn {
-       padding: 10px 20px;
-       border-radius: 10px;
-       font-size: 12px;
-       line-height: 22px;
-     }
+    padding: 50px;
+  }
 
-     // hero
-     .hero__container {
-       padding: 0 15px;
-     }
-   }
+  .hero__info h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .icon--title {
+    width: 220px;
+    top: 200px;
+  }
+}
+
+@media screen and(n) {
+  
+}
+// Medium screens (e.g., tablets)
+@media (max-width: 768px) {
+  
+  .hero__container {
+    flex-direction: column;
+  }
+
+  .hero__img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .main__info {
+   width: 500px;
+  }
+  .icon--title {
+    display: none;
+  }
+
+  .card__container {
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
+
+// Small screens (e.g., mobile)
+@media (max-width: 480px) {
+  .header__container {
+    padding: 10px;
+  }
+
+  .head__nav ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .hero__info h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  
+
+  .main__info {
+    gap: 20px;
+  }
+
+  .card {
+    width: 100%;
+    text-align: left;
+  }
+}
