@@ -1,34 +1,73 @@
-@media (max-width: 1024px) {
-  .hero__container, .main__container, .card__container {
-    flex-direction: column;
-    align-items: center;
+@media screen and (max-width:1140px) {
+  .header__container {
+    padding: 0 15px;
   }
 
-  .hero__info, .hero__img {
-    max-width: 100%;
-    text-align: center;
-  }
-  
-  .main__container {
-    flex-direction: column;
-    gap: 20px;
+  .hero__container {
+    padding: 015px;
+    padding-top: 50px;
   }
 
-  .card__container {
-    flex-direction: column;
-    gap: 30px;
+  .icon--title {
+    margin-top: 250px;
+  }
+
+  .main__info {
+    margin-top: 100px;
+    margin-left: -170px;
+  }
+
+  .title {
+    margin-top: 300px;
+  }
+
+}
+
+@media screen and (max-width:992px) {
+  .header__container {
+    padding: 0 30px;
+  }
+
+  .main__info {
+    width: 700px;
+    margin-top: 150px;
+    margin-left: -200px;
+  }
+
+  .title {
+    margin-top: 400px;
+  }
+
+  .hero__container {
+    padding: 0 60px;
+  }
+
+  .web {
+    background-color: white;
+    padding: 0;
+  }
+  .icon--title{
+    margin-top: 335px;
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .head__nav ul {
-    display: none; /* Hide navigation links for smaller screens */
+    display: none;
+  }
+
+  .header__container {
+    flex-direction: column;
   }
 
   .hero__info {
     padding: 0 20px;
   }
 
+  .hero__container {
+    flex-direction: column;
+  }
+
   .main__container {
     padding: 40px 0;
   }
@@ -36,9 +75,25 @@
   .card__container {
     padding: 40px 0;
   }
-  .icon--title{
+
+  .icon--title {
     display: none;
   }
+
+  .main__info {
+    width: 300px;
+    flex-direction: column;
+    height: 600px;
+    margin-top: 650px;
+    margin-left: -90px;
+  }
+  .title{
+  margin-top: 1200px;
+  margin-left: 20px;
+}
+.card__container{
+flex-direction: column;
+}
 }
 
 @media (max-width: 576px) {
@@ -55,8 +110,20 @@
 
   .card__container {
     gap: 40px;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 100px;
   }
-  .main__info{
+
+  .main__info {
     display: none;
+  }
+
+  .hero__container {
+    flex-direction: column;
+  }
+
+  .title {
+    margin-top: 600px;
   }
 }
